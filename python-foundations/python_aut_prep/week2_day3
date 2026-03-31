@@ -1,0 +1,23 @@
+salaries = [350000, 500000, 275000, 800000, 450000, 900000, 300000]
+highest = salaries[0]
+lowest = salaries[0]
+high_salaries = []
+total = 0
+
+for salary in salaries:
+    if salary > highest:
+        highest = salary
+    if salary < lowest:
+        lowest = salary
+    if salary >= 500000:
+        high_salaries.append(salary)
+        total += salary
+
+average = total / len(salaries)
+range_of_salaries = highest - lowest
+
+print("Highest Salary:", highest)
+print("Lowest Salary:", lowest)
+print("High Salaries:", high_salaries)
+print("Average Salary:", average)
+print("Salary range:", range_of_salaries)

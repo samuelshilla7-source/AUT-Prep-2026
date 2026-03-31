@@ -1,0 +1,10 @@
+{
+    "sam": {
+        "role": "member",
+        "visits": 3
+    },
+    "ema": {
+        "role": "member",
+        "visits": 1
+    }
+}
