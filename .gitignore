@@ -1,0 +1,7 @@
+*.exe 
+*.o 
+*.out 
+recover/*.jpg 
+recover/card.raw 
+volume/*.wav 
+filter-less/images/*.bmp 
